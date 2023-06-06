@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  salsamentaria_lm_db:
+    image: salsamentaria_lm_db
+    container_name: salsamentaria_lm_db
+    build:
+      context: .
+    ports:
+      - 5432:5432
